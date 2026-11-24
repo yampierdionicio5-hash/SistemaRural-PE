@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+datos/
+clave.key
+.vscode/
+.pytest_cache/
