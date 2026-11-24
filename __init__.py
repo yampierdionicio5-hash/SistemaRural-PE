@@ -1,1 +1,1 @@
-"""Funciones de apoyo para validar datos."""
+"""Clases del dominio (programación orientada a objetos)."""
