@@ -1,0 +1,23 @@
+Name                                         Stmts   Miss Branch BrPart  Cover   Missing
+----------------------------------------------------------------------------------------
+sistema_rural/__init__.py                        0      0      0      0   100%
+sistema_rural/config.py                          6      0      0      0   100%
+sistema_rural/dominio/__init__.py                0      0      0      0   100%
+sistema_rural/dominio/atencion_clinica.py       32      0      0      0   100%
+sistema_rural/dominio/cita_medica.py            50      2     10      2    93%   48, 51
+sistema_rural/dominio/inventario.py             47      0      6      0   100%
+sistema_rural/dominio/medicamento.py            35      0      2      0   100%
+sistema_rural/dominio/paciente.py               16      1      0      0    94%   20
+sistema_rural/dominio/persona.py                64      3      6      2    93%   60, 71, 84
+sistema_rural/dominio/persona_factory.py        14      2      2      1    81%   15, 19
+sistema_rural/dominio/profesional_salud.py      15      1      0      0    93%   21
+sistema_rural/excepciones.py                     5      0      0      0   100%
+sistema_rural/servicios/__init__.py              0      0      0      0   100%
+sistema_rural/servicios/persistencia.py         55      4      6      0    93%   24-25, 60-61
+sistema_rural/servicios/reportes.py             40      0      0      0   100%
+sistema_rural/servicios/seguridad.py            62      6     10      2    89%   27-28, 30, 77, 86-87
+sistema_rural/servicios/sistema_rural.py       190     12     40      9    91%   34, 59, 71, 80, 82, 83->85, 94, 106-107, 117-119, 178, 267->264, 276->274
+sistema_rural/utilidades/__init__.py             0      0      0      0   100%
+sistema_rural/utilidades/validaciones.py        24      5      8      3    75%   9, 11, 28-29, 31
+----------------------------------------------------------------------------------------
+TOTAL                                          655     36     90     19    93%
